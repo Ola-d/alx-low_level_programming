@@ -1,4 +1,2 @@
-#!/bin/nash
-gcc -S $CFILE
-
-
+#!/bin/bash 
+gcc -s $CFILE
