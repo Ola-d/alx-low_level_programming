@@ -7,14 +7,20 @@
 */
 int main (void)
 {
-	cha c;
-	for (c = 'a'; c <= 'z'; c++)
-	putchar(c);
-}
-
-for (c 'A'; C <= 'Z'; c++)
-{ 
-	putchar (c)
+	char a = 'a';
+	char A = 'A'
+	
+	while (a <= 'z')
+	{
+		putchar(a);
+		a++;
+	}
+	while (A <= 'A')
+	{
+		putchar(A);
+		A++;
+	}
+	putchar('\n');
 
 	return (0);
 }
