@@ -8,15 +8,14 @@
 int main (void)
 {
 	cha c;
-	for (c = 'a'; c = 'z'; c++)
+	for (c = 'a'; c <= 'z'; c++)
 	putchar(c);
 }
 
-for (c 'A'; C = 'Z'; c++)
+for (c 'A'; C <= 'Z'; c++)
 { 
-	putchar (c);
-}
-	putcar ('\n')
+	putchar (c)
 
-	return (0)
+	return (0);
 }
+
