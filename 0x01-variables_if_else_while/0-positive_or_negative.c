@@ -16,18 +16,16 @@ n = rand() - RAND_MAX / 2;
 
 if n(==0)
 {
-printf("%i is zero\n", n);
+	printf("%i is zero\n", n);
 }
-
 else if (n<0)
 {
-printf("%d is negative\n", n);
+	printf("%d is negative\n", n);
 }
-
 else
 {
-printf(%i is positve\n", n);
-}
-return (0);
+	printf("%d is positve\n", n);
+}	
+	return (0);
 }
 
