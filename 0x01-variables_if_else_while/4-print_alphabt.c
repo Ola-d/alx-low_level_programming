@@ -6,17 +6,17 @@
  */
 int main (void)
 {
-	char c;
+char c;
 
-	for (c = 'a' ; c <= 'z'; c++)
-	{
-	    if (c != 'e' && c != 'q')
-	    {
-		purchar(c);
-	    }
-	}
+for (c = 'a' ; c <= 'z'; c++)
+{
+if (c != 'e' && c != 'q')
+{
+purchar(c);
+}
 
-	purchar('\n');
+}
+purchar('\n');
 
-	return (0);
+return (0);
 }
