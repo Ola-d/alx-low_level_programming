@@ -21,7 +21,6 @@ putchar(A);
 A++;
 }
 putchar('\n');
-
 return (0);
 }
 
