@@ -2,9 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
+
 /**
  * main - Entry point 
- * Return: Always 0 (sucess)
+ * 
+ * Return: Always 0 (success)
  */
 
 int main (void)
@@ -14,21 +16,20 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
-if n(==0)
+if (n==0)
 {
-printf("%i is zero\n", n);
+printf("%i is zero\n",n);
 }
 
-else if (n<0)
+else if  (n<0)
 {
-printf("%d is negative\n", n);
-}
+printf("%i is negative\n",n);
+} 
 
-else
+else (n>0)
 {
-printf("%d is positve\n", n);
+printf("%i is positive\n",n);
 }
 
-return (0);
+retutn(0);
 }
-
